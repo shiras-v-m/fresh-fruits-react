@@ -3,6 +3,7 @@ import { FaLeaf } from 'react-icons/fa'
 import { MdMenu, MdOutlineShoppingCart } from 'react-icons/md'
 import ResponsiveMenu from './ResponsiveMenu'
 import { motion } from 'framer-motion'
+import { IoClose } from 'react-icons/io5'
 const Navbar = () => {
     const [open,setOpen]=useState(false)
     const navbarMenu = [{
@@ -59,7 +60,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 <div className='md:hidden' onClick={()=>setOpen(!open)}>
-                    <MdMenu className='text-4xl'/>
+                    {!open ? <MdMenu className='text-4xl'/> : <IoClose className='text-4xl'/>}
                 </div>
                 </div>
             

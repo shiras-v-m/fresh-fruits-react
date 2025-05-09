@@ -12,7 +12,7 @@ const Banner3 = () => {
     }
     return (
         <section className='bg-secondary/10 overflow-hidden'>
-            <div style={bgStyle} className='container overflow-y-hidden grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14 rounded-3xl'>
+            <div style={bgStyle} className='container overflow-hidden grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14 rounded-3xl'>
             <div>
             </div>
                 <div className='flex justify-center items-center'>

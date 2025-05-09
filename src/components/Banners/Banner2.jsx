@@ -6,7 +6,7 @@ import { FadeRight, FadeUp } from '../../utility/animation'
 const Banner2 = () => {
     return (
         <section >
-            <div className='container overflow-y-hidden grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14'>
+            <div className='container overflow-hidden grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14'>
                 <div className='flex justify-center items-center'>
                     <div className='text-center md:text-left space-y-4 lg:max-w-[400px]'>
                         <motion.h1 variants={FadeRight(0.7)} initial="hidden" whileInView={"visible"} viewport={{ once: true }}
