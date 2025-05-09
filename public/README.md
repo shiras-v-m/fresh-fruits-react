@@ -42,4 +42,4 @@ cd fresh-fruits-react
 npm install
 
 # Start the development server
-npm run dev
+npm run dev 
